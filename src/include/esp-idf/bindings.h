@@ -426,8 +426,10 @@
 #include "esp_hf_client_api.h"
 #endif
 #ifdef CONFIG_BT_HID_ENABLED
+#include "esp_hidd.h"
 #include "esp_hidd_api.h"
 #endif
+#include "esp_hidh.h"
 #include "esp_hidh_api.h"
 #if ESP_IDF_VERSION_MAJOR > 4
 #include "esp_sdp_api.h"
